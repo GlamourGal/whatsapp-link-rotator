@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>跳转中...</title>
+  <script>
+    async function fetchLink() {
+      try {
+        const response = await fetch('/.netlify/functions/get-whatsapp-link');
+        const data = await response.json();
+        window.location.href = data.link;
+      } catch (error) {
+        document.body.innerText = "跳转失败，请稍后重试。";
+        console.error(error);
+      }
+    }
+    window.onload = fetchLink;
+  </script>
+</head>
+<body>
+</body>
+</html>
