@@ -1,14 +1,20 @@
 exports.handler = async (event) => {
   const links = [
-    "https://wa.me/447563733956",
-    "https://wa.me/447544108917",
-    "https://wa.me/447563733842",
-    "https://wa.me/447395753757",
-    "https://wa.me/447563733817",
-    "https://wa.me/447742631092",
-    "https://wa.me/447925498703",
-    "https://wa.me/447955572077",
-    "https://wa.me/447594544343"
+    "https://wa.me/447925498706",
+    "https://wa.me/447955572065",
+    "https://wa.me/447955572063",
+    "https://wa.me/447563735300",
+    "https://wa.me/447907416182",
+    "https://wa.me/447955572062",
+    "https://wa.me/447561623775",
+    "https://wa.me/447955572074",
+    "https://wa.me/447563735241",
+    "https://wa.me/447510665949",
+    "https://wa.me/13104373610",
+    "https://wa.me/447962552788",
+    "https://wa.me/447955572060",
+    "https://wa.me/447565642782",
+    "https://wa.me/447563735207",
   ];
 
   const headers = {
