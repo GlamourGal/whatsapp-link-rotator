@@ -3,10 +3,7 @@ exports.handler = async (event) => {
     "https://wa.me/447955572060",
     "https://wa.me/447955572062",
     "https://wa.me/447955572065",
-    "https://wa.me/447955572063",
-    "https://wa.me/447594544343",
-    "https://wa.me/447544108917",
-    "https://wa.me/447563733817"
+    "https://wa.me/447955572063"
   ];
 
   const headers = {
